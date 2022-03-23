@@ -9,7 +9,10 @@
 
 <body>
     <h3>Japanese JQuery UI Datepicker</h3>
-    <input type="text" id="japaneseCalendar" />
+    <form action="data.php" method="post">
+        <input type="text" name="date" id="japaneseCalendar" />
+        <input type="submit" />
+    </form>
 
     <script src="jquery-3.2.1.min.js"></script>
     <script src="jquery-ui.min.js"></script>
