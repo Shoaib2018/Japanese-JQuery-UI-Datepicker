@@ -4,17 +4,12 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
     <style>
-    	#ui-datepicker-div {
-          font-size: 14px;
-        }
     </style>
     <script src="jquery-3.2.1.min.js"></script>
     <script src="jquery-ui.min.js"></script>
     <script src="jquery-ui-i18n.min.js"></script>
 	  <script>
     	$(document).ready(function () {
-          //var userLang = navigator.language || navigator.userLanguage;
-
           var options = $.extend({},
             $.datepicker.regional["ja"], {
               dateFormat: "yy/mm/dd",
